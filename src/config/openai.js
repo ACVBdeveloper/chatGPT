@@ -2,7 +2,7 @@ const { Configuration, OpenAIApi } = require("openai");
 require("dotenv").config
 
 
-modulo.exports = class openao{
+module.exports = class openai{
     static configuration(){
         const configuration = new Configuration({
             apiKey: process.env.OPENAI_API_KEY,
